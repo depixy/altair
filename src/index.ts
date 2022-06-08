@@ -1,5 +1,5 @@
-import fastifyPlugin from "fastify-plugin";
-import fastifyStatic from "@fastify/static";
+import { default as fastifyPlugin } from "fastify-plugin";
+import { default as fastifyStatic } from "@fastify/static";
 import { getDistDirectory, renderAltair, RenderOptions } from "altair-static";
 
 export interface DepixyAltairOptions extends RenderOptions {
