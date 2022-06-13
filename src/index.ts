@@ -44,7 +44,7 @@ const plugin = fastifyPlugin<DepixyAltairOptions>(
   },
   {
     name: "@depixy/altair",
-    fastify: "3.x"
+    fastify: "4.x"
   }
 );
 
